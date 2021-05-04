@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title> UHospital </title>
+    <!--Colores:
+        #2456A6 AZUL OSCURO
+        #3691DB CELESTE
+        #F2F2F2 BLANCO
+        #324759 GRIS CLARO-OSCURO
+        #365FD9 AZUL/MORADO
+        #c82333 ROJO
+    -->
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="open-iconic-master/font/css//open-iconic-bootstrap.css">
+</head>
+
+<body onload="mostrarInfoPefilEnfermera()" id="page-top" style="background-color: #324759;">
+
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-9 rounded mt-4 p-4 mb-4" style="background-color: white;">
+                <h2 class="d-inline"> Perfil <img src="open-iconic-master/png/external-link-8x.png" style="height: 30px; width: 30px;"> </h2>
+                <h5 class="d-inline"> - Enfermera </h5>
+                <a class="btn btn-registrar m-2 float-right" href="enfermera.html">Regresar</a>
+                <button onclick="modificarPerfilPropioEnfermera()" class="btn btn-login m-2 float-right">Modificar</button>
+                <table class="table">
+
+                    <col span="1" style="width: 30%;">
+                    <col span="1" style="width: 70%;">
+
+                    <tbody id="infoPerfil">
+                        <tr>
+                            <th scope="row">Usuario</th>
+                            <td><input type="text" class="form-control" id="usuario"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Nombre</th>
+                            <td><input type="text" class="form-control" id="nombre"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Apellido</th>
+                            <td><input type="text" class="form-control" id="apellido"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Contraseña</th>
+                            <td><input type="text" class="form-control" id="password"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Sexo</th>
+                            <td><input type="text" class="form-control" id="sexo"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Telefono</th>
+                            <td><input type="text" class="form-control" id="telefono"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fecha de nacimiento</th>
+                            <td><input type="text" class="form-control" id="nacimiento"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script text="text/javascript" src="papaparse/papaparse.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

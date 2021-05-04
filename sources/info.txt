@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: TruenoBd
+font link: https://fontlibrary.org/en/font/trueno
+font author: Julieta Ulanovsky
+font author site: http://www.zkysky.com.ar/
+
+
+icon designer: Vicons Design
+icon designer link: /ViconsDesign
+        
+{"bg":"#003FBA","icon":"#34A1E5","font":"#ffffff","slogan":"#ffffff"}
+      
