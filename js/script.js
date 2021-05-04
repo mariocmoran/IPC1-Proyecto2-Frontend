@@ -1537,7 +1537,7 @@ function rechazarCitaDoctor(boton) {
 
 }
 
-function mostrarInfoPefilEnfermera(){
+function mostrarInfoPefilDoctor(){
     var user = sessionStorage.usuario
     console.log(user)
 
